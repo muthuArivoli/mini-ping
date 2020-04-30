@@ -63,6 +63,3 @@ go build mini-ping.go
 
 ## Bugs
 The reported values for TTL on Windows are currently inaccurate (they always report zero). This is due to the control flags in Go not being able to be set on Windows (since it has not been implemented for Windows in the Go library yet).
-
-## Impressions
-This has been my first project using Go. It has been fun learning a new language and learning about how ICMP works. I believe that this project has taught me the skills required to build CLIs for any of my future projects. Thank you for your consideration and I look forward to hearing from you. 
